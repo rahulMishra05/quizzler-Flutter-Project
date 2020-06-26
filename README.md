@@ -1,19 +1,10 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Quizzler
 
+In this project we had made a quiz application. This app contains 13 questions and in oreder to answer each question user have to choose between "True" and "False".
 
-# Quizzler Challenge - Starting Files
+If the answer is correct then a check sign in green colour will appear at the bottom of the screen and if the answer is wrong then a cross sign will appear at the bottom of the screen in red colour.
 
-- Clone this repository to your local system.
+When all the 13 questions are completed then an alert will appear having a message "Finished!  You've reached the end of the quiz" followed by a button, which have a functionality that when we click on that button then the quiz will start from starting.
 
-- Read the docs for the package we're using:
-
-[rFluttter Alert](https://pub.dartlang.org/packages/rflutter_alert)
-
-- Follow the step by step challenges.
-
-
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+For having this alert functionality we have to import an package from the official website for Dart packages https://pub.dev/. And from there we had impotred an package name as "rflutter_alert" https://pub.dev/packages/rflutter_alert#-readme-tab-, after installing this package to uor flutter project we had used the "Basic Alert" functionality to show an alert to the user
+  
